@@ -29,7 +29,7 @@ while True:
       counter += 1
     if each_word == "angry":
       feelings_list.append("angry")
-      encouragement_list.append("dont take it out on yourself or others be careful")
+      encouragement_list.append("dont take it out on yourself or others, be careful")
       counter += 1
 
   if counter == 0:
