@@ -1,7 +1,7 @@
 print("Title of program: Encouragement bot")
 print()
 while True:
-  description = input("How was your day?")
+  description = input("How are you feeling?")
 
   list_of_words = description.split()
 
@@ -27,9 +27,9 @@ while True:
       feelings_list.append("bad")
       encouragement_list.append("the most beautiful thing in the world is now and i promise that everything us going to get better ")
       counter += 1
-    if each_word == "angry"
-      feelings_list.append("go hug your soft toy and relieve your anger dont take it out on yourself or other people")
-      encouragement_list.append 
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("dont take it out on yourself or others be careful")
       counter += 1
 
   if counter == 0:
@@ -38,7 +38,7 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". go take a break and take good care of yourself "+ encouragement_list[0] + "! Hope you feel better :)"  
+      output = "It seems that you are feeling quite " + feelings_list[0] + ". go take a break and take good care of yourself, "+ encouragement_list[0] + "! Hope you feel better :)"  
 
   else:
 
